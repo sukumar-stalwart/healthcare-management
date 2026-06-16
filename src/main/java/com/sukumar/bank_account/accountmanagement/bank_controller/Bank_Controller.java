@@ -21,12 +21,12 @@ public class Bank_Controller {
     private BankServiceInterface service ;
 
 
-    @PostMapping("/createaccount")
+   /* @PostMapping("/createaccount")
     public ResponseEntity<ResponseAccountDto> create(@Valid @RequestBody RequestAccountDto req){
         ResponseAccountDto res = service.createNewAccount(req);
         return ResponseEntity.status(HttpStatus.CREATED).body(res);
 
-    }
+    }*/
 
 
     // we use ResponseEntity to know the api status using httpstatuscode
